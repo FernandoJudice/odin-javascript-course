@@ -26,7 +26,7 @@ function Node(value) {
     }    
 }
 
-function kightMoves(start,finish){
+function knightMoves(start,finish){
 
     const queue = [{curPos: start, path: []}];
     const history = [];
@@ -65,4 +65,4 @@ function kightMoves(start,finish){
     return `You made it in ${result.length-1} moves! here is your path: ${result}`
 }
 
-console.log(kightMoves([0,0],[7,7]))
+console.log(knightMoves([0,0],[7,7]))
