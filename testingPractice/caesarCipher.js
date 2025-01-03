@@ -20,7 +20,7 @@ function caesarCipher(str, shift) {
             result += _shiftUniCode(str[i], shift, 97, 122)
         }
         else if (code >= 65 && code <= 90) {
-            // lowercase
+            // uppercase
             result += _shiftUniCode(str[i], shift, 65, 90)
         }
         else {
